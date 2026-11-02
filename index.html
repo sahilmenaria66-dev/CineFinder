@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+
+        <h2 class="logo">MOVIE<span>EXPLORER</span></h2>
+
+        <nav>
+            <a href="#" class="active">Discover</a>
+           
+        </nav>
+
+        <div class="profile">S</div>
+
+    </header>
+
+
+    <main class="container">
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <p class="tagline">YOUR CINEMA DESTINATION</p>
+
+            <h1>
+                Find Your Next<br>
+                <span>Favorite Movie.</span>
+            </h1>
+
+            <p class="description">
+                Explore thousands of movies, discover hidden gems and find something worth watching.
+            </p>
+
+            <div class="search-box">
+
+                <input class="input-search" id="search-input"
+                    type="text"
+                    id="search-input"
+                    placeholder="Search for movies..."
+                >
+
+                <button class="search-button" id="search-button">
+                    Search
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Movies Section -->
+        <section class="movies-section">
+
+            <div class="section-header">
+
+                <div>
+                    <p class="small-title">EXPLORE COLLECTION</p>
+                    <h2>Popular Movies</h2>
+                </div>
+
+                <!--<a href="#">View All →</a>--> <a href="#movie-grid">View All →</a>
+ 
+            </div>
+  
+          
+            <!-- Movie Cards -->
+            <div class="movie-grid" id="movie-grid">
+              
+             
+            </div>
+          
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
